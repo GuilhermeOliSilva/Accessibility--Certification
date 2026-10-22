@@ -1,0 +1,12 @@
+{
+  "name": "testmu-accessibility-cypress",
+  "version": "1.0.0",
+  "description": "Automated WCAG 2.1 AA accessibility tests (Cypress) on TestMu AI - eCommerce Playground",
+  "scripts": {
+    "test:accessibility": "lambdatest-cypress run"
+  },
+  "devDependencies": {
+    "cypress": "13.13.0",
+    "lambdatest-cypress-cli": "^3.0.30"
+  }
+}

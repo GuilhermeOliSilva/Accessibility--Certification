@@ -1,0 +1,17 @@
+node_modules/
+cypress/videos/
+cypress/screenshots/
+cypress/results/
+.lambdatest/
+lambdatest-artefacts/
+mochawesome-report/
+*.log
+.env
+
+# arquivos gerados pelo lambdatest-cypress
+project.zip
+test.zip
+he_conv.yaml
+lambdatest_run.json
+.hyperexecuteignore
+base_reporter_config.json

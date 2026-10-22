@@ -1,0 +1,33 @@
+{
+  "lambdatest_auth": {
+    "username": "",
+    "access_key": ""
+  },
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "platform": "Windows 10",
+      "versions": ["latest"]
+    }
+  ],
+  "run_settings": {
+    "build_name": "accessibility-testing-101",
+    "parallels": 1,
+    "specs": "./cypress/e2e/*.cy.js",
+    "ignore_files": "",
+    "network": false,
+    "headless": false,
+    "npm_dependencies": {
+      "cypress": "13.13.0",
+      "lambdatest-cypress-cli": "^3.0.30"
+    },
+    "accessibility": true,
+    "accessibility.wcagVersion": "wcag21aa",
+    "accessibility.bestPractice": true,
+    "accessibility.needsReview": true
+  },
+  "tunnel_settings": {
+    "tunnel": false,
+    "tunnelName": ""
+  }
+}
